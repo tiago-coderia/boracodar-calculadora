@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Image from "next/image";
+import Script from "next/script";
 import Calculadora from "./components/Calculadora";
 
 export default function Home() {
@@ -14,6 +14,7 @@ export default function Home() {
       <main>
         <Calculadora />
       </main>
+      <Script>document.querySelector</Script>
     </>
   );
 }

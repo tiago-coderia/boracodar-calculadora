@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-function Screen() {
+function Screen(props) {
   return (
     <div className="screen flex flex-col mt-[5.4rem] px-[2.2rem]">
       <div className="history text-historyColor text-normal mb-[0.8rem] text-right">
@@ -16,7 +16,7 @@ function Screen() {
             alt="Simbolo de Igual"
           />
         </div>
-        <div className="calcOnScreen text-white text-big">2</div>
+        <div className="calcOnScreen text-white text-big">{props.numero}</div>
       </div>
     </div>
   );

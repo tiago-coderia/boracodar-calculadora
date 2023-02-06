@@ -68,7 +68,7 @@ const Calcuradora = () => {
           format="btn btn-primary"
           operation="c"
           color="text-white"
-          onClick={inputNum}
+          onClick={clean}
           value="c"
         />
         <Button
